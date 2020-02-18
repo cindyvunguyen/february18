@@ -18,14 +18,14 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 300px;
-    height: 150px;
+    height: 175px;
     background-color: #f5f5f5;
 }
 
-#question h1 {
+#question {
     font-weight: bold;
     font-size: 16pt;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -43,5 +43,5 @@ body {
 }
 
 #result {
-    height: 20px;
+    height: 5px;
 }
