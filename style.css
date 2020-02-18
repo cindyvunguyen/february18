@@ -22,16 +22,16 @@ body {
     background-color: #f5f5f5;
 }
 
-#question {
+#question h1 {
     font-weight: bold;
-    font-size: 18pt;
+    font-size: 16pt;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #answerBox {
     height: 20px;
     width: auto;
-    margin-right: 5px;
 }
 
 #submit {
@@ -40,4 +40,8 @@ body {
     background-color: #3d3d3d;
     color: white;
     font-weight: bold;
+}
+
+#result {
+    height: 20px;
 }
