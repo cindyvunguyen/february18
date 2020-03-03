@@ -1,37 +1,70 @@
-body{
-    background-color: rgb(247, 244, 244);
-}
-
-#allStuff{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
+html, body {
     height: 100vh;
+    width: 100vw;
+    margin: 0;
 }
 
-#questionBox{
-    font-size: 30px;
-    margin-bottom: 15px;
-    text-align: center;
-    font-weight: 700;
-}
-
-#interactiveBox{
+#screen {
+    height: 100vh;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
-    background-color: rgb(161, 192, 218);
-    width:  300px;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    background-color: lightsteelblue;
+    flex-direction: column;
 }
 
-
-#inputBox{
-    padding: 10px;
+#outerSquare {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ /* background-color: lightsteelblue; */
 }
 
-#submitButton{
-    padding: 10px;
+#innerSquare {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+    
+}
+#inputbutton {
+
+}
+
+#question {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategrey;
+    font-size: 40;
+}
+
+#input {
+    width: 260px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px lightslategray solid;
+
+}
+
+#button {
+    width: 90px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px lightslategray solid;
+
+}
+
+#result {
+    height: 40px;
+    width: 100px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
 }

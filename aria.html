@@ -1,25 +1,22 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>groupProject</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <link rel="stylesheet" href="aria.css">
 </head>
 <body>
-<div id="allStuff">
-    <div id="interactiveBox">
-        <div id="questionBox">
-            <span id="questiona">What comes after 20?
-            </span>
+    <div id="screen">
+            <div id="innerSquare">
+                <h1 id="question">What comes after A?</h1>
+                <div id="inputbutton">
+                    <input type="text" id="input">
+                    <button id="button" onclick="CheckAnswer()">Click</button>
+                </div>
+                <div id="result"></div>
             </div>
-            <div id="answerBox">
-                <input type="text" id="inputBox">
-                <button onclick="checkAnswer()" id="submitButton">Submit</button>
-            </div>
-            <div id="AnswerFeedback">
-            </div>
-        </div>
+            
     </div>
     <script src="ariaApp.js"></script>
 </body>
